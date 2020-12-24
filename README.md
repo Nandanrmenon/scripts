@@ -12,3 +12,5 @@ Then run
 cd script 
 . setup.sh
 ```
+
+
