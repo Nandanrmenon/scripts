@@ -44,28 +44,58 @@ setup(){
 	echo "Installing OpenJDK"
 	sudo apt install default-jdk
 	clear
-	##
+	#
 	echo "Installing repo"
-	curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
-	chmod a+x ~/bin/repo
+	sudo curl --create-dirs -L -o /usr/local/bin/repo -O -L https://storage.googleapis.com/git-repo-downloads/repo
+	sudo chmod a+rx /usr/local/bin/repo
 	source ~/.profile
     pause
 }
  
 # do something in two()
-two(){
-	echo "two() called"
-        pause
+rom_menu(){
+	clear
+	echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"	
+	echo " C H O O S E  Y O U R  R O M"
+	echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+	echo "1. Hornbill"
+	echo "2. LineageOS"
+	echo "3. Back"
+	read_options_rom
+}
+read_options_rom(){
+	local choice
+	read -p "Enter choice [ 1 - 3] " choice
+	case $choice in
+		1) hornbill ;;
+		2) lineage ;;
+		3) break ;;
+		*) echo -e "${RED}Error...${STD}" && sleep 2
+	esac
 }
  
+# function to display menus
+hornbill() {
+	clear
+	echo "Now sit back and wait until the downloading is complete :)"
+	mkdir android/hornbill
+	pause
+}
+# function to display menus
+lineage() {
+	clear
+	echo "LineageOS WIP"
+	pause
+}
+
 # function to display menus
 show_menus() {
 	clear
 	echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"	
 	echo " A N D R O I D | B U I L D E R"
-	echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+	echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 	echo "1. Setup Tools"
-	echo "2. Reset Terminal"
+	echo "2. Build Rom"
 	echo "3. Exit"
 }
 # read input from the keyboard and take a action
@@ -77,7 +107,7 @@ read_options(){
 	read -p "Enter choice [ 1 - 3] " choice
 	case $choice in
 		1) setup ;;
-		2) two ;;
+		2) rom_menu;;
 		3) exit;;
 		*) echo -e "${RED}Error...${STD}" && sleep 2
 	esac
