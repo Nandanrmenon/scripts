@@ -102,12 +102,12 @@ rom_menu(){
 	echo "46. Viper OS"
 	echo "47. Weeb Projekt"
 	echo "48. ZenX OS"
-	echo "9. Back"
+	echo "49. Back"
 	read_options_rom
 }
 read_options_rom(){
 	local choice
-	read -p "Enter choice [ 1 - 4] " choice
+	read -p "Enter choice [ 1 - 49] " choice
 	case $choice in
 		1) aicp ;;
 		2) aim_rom ;;
