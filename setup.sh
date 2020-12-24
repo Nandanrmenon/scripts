@@ -53,18 +53,112 @@ rom_menu(){
 	echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"	
 	echo " C H O O S E  Y O U R  R O M"
 	echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-	echo "1. HornbillOS 2.0"
-	echo "2. LineageOS 18.1"
-	echo "3. Back"
+	echo "1. AICP"
+	echo "2. AIM ROM"
+	echo "3. Ancient OS"
+	echo "4. AOSiP"
+	echo "5. AOSP Extended"
+	echo "6. Arrow OS"
+	echo "7. Beast ROMs"
+	echo "8. Bliss ROM"
+	echo "9. Bootleggers ROM"
+	echo "10. Colt OS"
+	echo "11. Corvus OS"
+	echo "12. Cosmic OS"
+	echo "13. CrDroid"
+	echo "14. Derpfest"
+	echo "15. Dot OS"
+	echo "16. Evolution-X"
+	echo "17. Extended UI"
+	echo "18. Fluid OS"
+	echo "19. Fusion OS"
+	echo "20. Havoc OS"
+	echo "21. Hornbill"
+	echo "22. Ion OS"
+	echo "23. Kang OS"
+	echo "24. Liquid ROM"
+	echo "25. Ligion OS"
+	echo "26. Lineage OS"
+	echo "27. MoKee ROM"
+	echo "28. MSM Xtended"
+	echo "29. Nitrogen OS"
+	echo "30. Nusantara Project"
+	echo "31. Octavi OS"
+	echo "32. Omni ROM"
+	echo "33. Paranoid Android"
+	echo "33. Pixel Dust"
+	echo "34. PixelExperience"
+	echo "35. PixelExtended ROM"
+	echo "36. PixysOS"
+	echo "37. POSP"
+	echo "38. Project 404"
+	echo "39. Project Sakura"
+	echo "40. Resurrection Remix"
+	echo "40. Revenge OS"
+	echo "41. ShapeShift OS"
+	echo "43. Superior OS"
+	echo "44. Syberia OS"
+	echo "45. Validus OS"
+	echo "46. Viper OS"
+	echo "47. Weeb Projekt"
+	echo "48. ZenX OS"
+	echo "9. Back"
 	read_options_rom
 }
 read_options_rom(){
 	local choice
 	read -p "Enter choice [ 1 - 4] " choice
 	case $choice in
-		1) hornbill ;;
-		2) lineage ;;
-		3) break ;;
+		1) aicp
+		2) aim_rom
+		3) aAncient_os
+		4) aosip
+		5) aosp_extended
+		6) arrow_os
+		7) beast_roms
+		8) bliss_rom
+		9) bootleggers_rom
+		10) colt_os
+		11) corvus_os
+		12) cosmic_os
+		13) crdroid
+		14) derpfest
+		15) dot_os
+		16) evolution_x
+		17) extended_ui
+		18) fluid_os
+		19) fusion_os
+		20) havoc_os
+		21) hornbill
+		22) ion_os
+		23) kang_os
+		24) liquid_rom
+		25) ligion_os
+		26) lineage_os
+		27) mokee_rom
+		28) msm_xtended
+		29) nitrogen_os
+		30) nusantara_project
+		31) octavi_os
+		32) omni_rom
+		33) paranoid_android
+		33) pixel_dust
+		34) pixelexperience
+		35) pixelextended_rom
+		36) pixys_os
+		37) posp
+		38) project_404
+		39) project_sakura
+		40) resurrection_remix
+		40) revenge_os
+		41) shapeshift_os
+		43) superior_os
+		44) Syberia OS
+		45) Validus OS
+		46) Viper OS
+		47) Weeb Projekt
+		48) ZenX OS
+		49) break ;;
 		*) echo -e "${RED}Error...${STD}" && sleep 2
 	esac
 }
@@ -75,7 +169,7 @@ hornbill() {
 }
 
 lineage() {
-	. roms/lineage_18.1.sh
+	. 	roms/lineage_18.1.sh
 }
 
 
