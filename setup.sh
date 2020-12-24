@@ -264,7 +264,7 @@ ligion_os(){
 }
 
 lineage() {
-	. 	roms/lineage_18.1.sh
+	. roms/lineage_18.1.sh
 }
 
 mokee_rom(){
