@@ -77,14 +77,48 @@ read_options_rom(){
 # function to display menus
 hornbill() {
 	clear
-	echo "Now sit back and wait until the downloading is complete :)"
-	mkdir android/hornbill
+	echo -e "HornbillOS \nNow sit back and wait until the downloading is complete :)"
+	#mkdir android/hornbill
+	#cd android/hornbill
+	#repo init -u https://github.com/HornbillOS/manifest -b eleven
+	#repo sync --force-sync
+	echo -e "\n\n"
+	echo "HHHH            HHHH"
+	echo "HHHH            HHHH"
+	echo "HHHH            HHHH"
+	echo "HHHH            HHHH"
+	echo "HHHHHHHHHHHHHHHHHHHH"
+	echo "HHHHHHHHHHHHHHHHHHHH"
+	echo "HHHHHHHHHHHHHHHHHHHH"
+	echo "HHHH            HHHH"
+	echo "HHHH            HHHH"
+	echo "HHHH            HHHH"
+	echo "HHHH            HHHH"
+	echo -e "\n\n"
 	pause
 }
 # function to display menus
 lineage() {
 	clear
-	echo "LineageOS WIP"
+	echo -e "LineageOS \nNow sit back and wait until the downloading is complete :)"
+	#mkdir android/lineage
+	#cd android/lineage
+	#repo init -u git://github.com/LineageOS/android.git -b lineage-18.1
+	#repo sync --force-sync
+	echo -e "\n\n"
+	echo "LLLL"
+	echo "LLLL"
+	echo "LLLL"
+	echo "LLLL"
+	echo "LLLL"
+	echo "LLLL"
+	echo "LLLL"
+	echo "LLLL"
+	echo "LLLL"
+	echo "LLLL"
+	echo "LLLLLLLLLLLLLLLLLLLLL"
+	echo "LLLLLLLLLLLLLLLLLLLLL"
+	echo -e "\n\n"
 	pause
 }
 
@@ -112,11 +146,6 @@ read_options(){
 		*) echo -e "${RED}Error...${STD}" && sleep 2
 	esac
 }
- 
-# ----------------------------------------------
-# Step #3: Trap CTRL+C, CTRL+Z and quit singles
-# ----------------------------------------------
-#trap '' SIGINT SIGQUIT SIGTSTP
  
 # -----------------------------------
 # Step #4: Main logic - infinite loop
