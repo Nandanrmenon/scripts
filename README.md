@@ -14,7 +14,8 @@ cd script
 ```
 
 <details>
-<summary>Currently Supported ROMs : </summary>
+<summary>List Of Currently Supported ROMs : </summary>
+```
 <ol>
 <li> AICP </li>
 <li> AIM </li>
@@ -43,5 +44,29 @@ cd script
 <li> Legion OS </li>
 <li> Lineage OS </li>
 <li> Liquid ROM </li>
+<li> Mokee ROM </li>
+<li> MSM Xtended </li>
+<li> Nitrogen OS </li>
+<li> Nusantara Project </li>
+<li> Octavi OS </li>
+<li> OMNI ROM </li>
+<li> Pranaoid Android </li>
+<li> Pixel Dust </li>
+<li> PixelExperience </li>
+<li> PixelExtended ROM </li>
+<li> PixysOS </li>
+<li> POSP </li>
+<li> Project 404 </li>
+<li> Project Sakura </li>
+<li> Resurrection Remix </li>
+<li> Revenge OS </li>
+<li> ShapeShift OS </li>
+<li> Superior OS </li>
+<li> Syberia OS </li>
+<li> Validus OS </li>
+<li> Viper OS </li>
+<li> Weeb Projekt </li>
+<li> ZenX OS </li>
 </ol>
+```
 </details>
