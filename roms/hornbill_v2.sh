@@ -8,6 +8,7 @@ clear
 echo -e "HornbillOS 2.0 | Now sit back and wait until the downloading is complete :)"
 mkdir ../android/hornbill
 cd ../android/hornbill
+echo "Initializing Repository...."
 repo init -u https://github.com/HornbillOS/manifest -b eleven
 repo sync --force-sync
 echo -e "\n\n"
