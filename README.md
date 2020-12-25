@@ -25,3 +25,9 @@ Currently Supported ROMs :
 * Bootleggers
 * Colt OS
 * Corvus OS
+* Cosmic OS
+* CrDroid
+* Derpfest
+* Dot OS
+* Evolution X
+* Extended UI
