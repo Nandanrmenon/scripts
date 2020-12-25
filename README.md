@@ -18,10 +18,9 @@ cd script
 ```
 <ol>
 <li> AICP </li>
-<li> AIM </li>
-<li> ROM </li>
+<li> AIM ROM </li>
 <li> Ancient OS </li>
-<li> AOSIP </li>
+<li> AOSiP </li>
 <li> AOSP Extended </li>
 <li> Arrow OS </li>
 <li> Beast ROM </li>
@@ -39,7 +38,7 @@ cd script
 <li> Fusion OS </li>
 <li> Havoc OS </li>
 <li> Hornbill OS </li>
-<li> IOS OS </li>
+<li> ION OS </li>
 <li> Kang OS </li>
 <li> Legion OS </li>
 <li> Lineage OS </li>
