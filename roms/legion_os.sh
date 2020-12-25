@@ -6,8 +6,8 @@ pause(){
 
 clear
 echo -e "LEgion OS 11 | Now sit back and wait until the downloading is complete :)"
-mkdir ../android/LegionOS
-cd ../android/LegionOS
+mkdir ~/android/LegionOS
+cd ~/android/LegionOS
 echo "Initializing Repository...."
 #repo init -u https://github.com/Project-LegionOS/manifest.git -b 11
 #repo sync --force-sync

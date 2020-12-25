@@ -6,8 +6,8 @@ pause(){
 
 clear
 echo -e "Kang OS 11 | Now sit back and wait until the downloading is complete :)"
-mkdir ../android/KangOS
-cd ../android/KangOS
+mkdir ~/android/KangOS
+cd ~/android/KangOS
 echo "Initializing Repository...."
 #repo init -u https://github.com/Kang-OS-R/android_manifest -b eleven
 #repo sync --force-sync

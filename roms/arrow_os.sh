@@ -7,8 +7,8 @@ pause(){
 
 clear
 echo -e "Arrow OS 11 | Now sit back and wait until the downloading is complete :)"
-mkdir ../android/arrow_os
-cd ../android/arrow_os
+mkdir ~/android/arrow_os
+cd ~/android/arrow_os
 #repo init -u https://github.com/ArrowOS/android_manifest.git -b arrow-11.0
 #repo sync --force-sync
 echo -e "\n\n"

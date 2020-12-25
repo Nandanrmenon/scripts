@@ -7,8 +7,8 @@ pause(){
 
 clear
 echo -e "Derpfest 11 | Now sit back and wait until the downloading is complete :)"
-mkdir ../android/Derpfest
-cd ../android/Derpfest
+mkdir ~/android/Derpfest
+cd ~/android/Derpfest
 #repo init -u git://github.com/DerpFest-11/manifest.git -b 11
 #repo sync --force-sync
 echo -e "\n\n"

@@ -6,8 +6,8 @@ pause(){
 
 clear
 echo -e "ION OS 10 | Now sit back and wait until the downloading is complete :)"
-mkdir ../android/IONOS
-cd ../android/IONOS
+mkdir ~/android/IONOS
+cd ~/android/IONOS
 echo "Initializing Repository...."
 #repo init -u https://github.com/i-o-n/manifest -b ten
 #repo sync --force-sync

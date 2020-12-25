@@ -7,8 +7,8 @@ pause(){
 
 clear
 echo -e "DOT OS 11 | Now sit back and wait until the downloading is complete :)"
-mkdir ../android/DotOS
-cd ../android/DotOS
+mkdir ~/android/DotOS
+cd ~/android/DotOS
 #repo init -u git://github.com/dotos-test/manifest.git -b dot11
 #repo sync --force-sync
 echo -e "\n\n"

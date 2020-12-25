@@ -7,8 +7,8 @@ pause(){
 
 clear
 echo -e "Mokee ROM | Now sit back and wait until the downloading is complete :)"
-mkdir ../android/MokeeROM
-cd ../android/MokeeROM
+mkdir ~/android/MokeeROM
+cd ~/android/MokeeROM
 echo "Initializing Repository...."
 #repo init -u https://github.com/MoKee/android.git -b mkq-mr1
 #repo sync --force-sync

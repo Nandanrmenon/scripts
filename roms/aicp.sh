@@ -6,8 +6,8 @@ pause(){
 
 clear
 echo -e " AICP | Now sit back and wait until the downloading is complete :)"
-mkdir ../android/AICP
-cd ../android/AICP
+mkdir ~/android/AICP
+cd ~/android/AICP
 # repo init -u https://github.com/AICP/platform_manifest.git -b r11.1
 # repo sync --force-sync
 echo -e "\n\n"

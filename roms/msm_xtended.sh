@@ -7,8 +7,8 @@ pause(){
 
 clear
 echo -e "MSM Xtended 11 | Now sit back and wait until the downloading is complete :)"
-mkdir ../android/MSM_XTENDED
-cd ../android/MSM_XTENDED
+mkdir ~/android/MSM_XTENDED
+cd ~/android/MSM_XTENDED
 echo "Initializing Repository...."
 #repo init -u https://github.com/Project-Xtended/manifest.git -b xr
 #repo sync --force-sync

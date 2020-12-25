@@ -7,8 +7,8 @@ pause(){
 
 clear
 echo -e "Nitrogen Project 11 | Now sit back and wait until the downloading is complete :)"
-mkdir ../android/nitrogen
-cd ../android/nitrogen
+mkdir ~/android/nitrogen
+cd ~/android/nitrogen
 echo "Initializing Repository...."
 #repo init -u https://github.com/nitrogen-project/android_manifest.git -b 11
 #repo sync --force-sync

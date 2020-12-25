@@ -7,8 +7,8 @@ pause(){
 
 clear
 echo -e "Beast ROM 10 | Now sit back and wait until the downloading is complete :)"
-mkdir ../android/beast_rom
-cd ../android/beast_rom
+mkdir ~/android/beast_rom
+cd ~/android/beast_rom
 #repo init -u https://github.com/BeastRoms/platform_manifest.git -b 10
 #repo sync --force-sync
 echo -e "\n\n"

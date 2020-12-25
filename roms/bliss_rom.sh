@@ -7,8 +7,8 @@ pause(){
 
 clear
 echo -e "Bliss ROMs 111 | Now sit back and wait until the downloading is complete :)"
-mkdir ../android/bliss_rom
-cd ../android/bliss_rom
+mkdir ~/android/bliss_rom
+cd ~/android/bliss_rom
 #repo init -u https://github.com/BlissRoms/platform_manifest.git -b r
 #repo sync --force-sync
 echo -e "\n\n"

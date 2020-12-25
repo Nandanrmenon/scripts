@@ -7,8 +7,8 @@ pause(){
 
 clear
 echo -e "Extended UI 10 | Now sit back and wait until the downloading is complete :)"
-mkdir ../android/Ex-UI
-cd ../android/Ex-UI
+mkdir ~/android/Ex-UI
+cd ~/android/Ex-UI
 #repo init -u https://github.com/Extended-UI/android_manifest -b android_10
 #repo sync --force-sync
 echo -e "\n\n"

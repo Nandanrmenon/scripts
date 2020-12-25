@@ -7,8 +7,8 @@ pause(){
 
 clear
 echo -e "Octavi OS 11 | Now sit back and wait until the downloading is complete :)"
-mkdir ../android/octavi
-cd ../android/octavi
+mkdir ~/android/octavi
+cd ~/android/octavi
 echo "Initializing Repository...."
 #repo init -u https://github.com/Octavi-OS/platform_manifest.git -b 11
 #repo sync --force-sync

@@ -7,8 +7,8 @@ pause(){
 
 clear
 echo -e "Havoc OS 10 | Now sit back and wait until the downloading is complete :)"
-mkdir ../android/HavocOS
-cd ../android/HavocOS
+mkdir ~/android/HavocOS
+cd ~/android/HavocOS
 echo "Initializing Repository....."
 #repo init -u https://github.com/Havoc-OS/android_manifest.git -b ten
 #repo sync --force-sync

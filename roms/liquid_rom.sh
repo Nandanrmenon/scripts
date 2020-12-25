@@ -7,8 +7,8 @@ pause(){
 
 clear
 echo -e "Liquid ROM 11 | Now sit back and wait until the downloading is complete :)"
-mkdir ../android/LiquidROM
-cd ../android/LiquidROM
+mkdir ~/android/LiquidROM
+cd ~/android/LiquidROM
 echo "Initializing Repository...."
 #repo init -u git://github.com/LiquidRemix/android_manifest.git -b ten
 #repo sync --force-sync

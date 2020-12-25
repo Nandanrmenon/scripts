@@ -7,8 +7,8 @@ pause(){
 
 clear
 echo -e "AOSP EXtended 11 | Now sit back and wait until the downloading is complete :)"
-mkdir ../android/AEX
-cd ../android/AEX
+mkdir ~/android/AEX
+cd ~/android/AEX
 #repo init -u git://github.com/AospExtended/manifest.git -b 11.x
 #repo sync --force-sync
 echo -e "\n\n"

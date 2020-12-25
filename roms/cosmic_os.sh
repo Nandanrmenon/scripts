@@ -7,8 +7,8 @@ pause(){
 
 clear
 echo -e "Cosmic OS 10 | Now sit back and wait until the downloading is complete :)"
-mkdir ../android/cosmic_os
-cd ../android/cosmic_os
+mkdir ~/android/cosmic_os
+cd ~/android/cosmic_os
 #repo init -u https://github.com/Cosmic-OS/platform_manifest.git -b quasar-release
 #repo sync --force-sync
 echo -e "\n\n"

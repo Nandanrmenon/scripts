@@ -6,8 +6,8 @@ pause(){
 
 clear
 echo -e "AIM ROM 2.0 | Now sit back and wait until the downloading is complete :)"
-mkdir ../android/aim_rom
-cd ../android/aim_rom
+mkdir ~/android/aim_rom
+cd ~/android/aim_rom
 #repo init -u git://github.com/AIMROM/manifest.git -b 10.0
 #repo sync --force-sync
 echo -e "\n\n"
