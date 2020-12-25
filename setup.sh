@@ -132,7 +132,7 @@ read_options_rom(){
 		21) hornbill_os ;;
 		22) ion_os ;;
 		23) kang_os ;;
-		24) liquid_rom
+		24) liquid_rom ;;
 		25) ligion_os ;;
 		26) lineage_os ;;
 		27) mokee_rom ;;
