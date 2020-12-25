@@ -13,4 +13,15 @@ cd script
 . setup.sh
 ```
 
-
+Currently Supported ROMs :
+* AICP
+* AIM ROM
+* Ancient OS
+* AOSIP
+* AOSP Extended
+* Arror OS
+* Beast ROM
+* Bliss ROMs
+* Bootleggers
+* Colt OS
+* Corvus OS
