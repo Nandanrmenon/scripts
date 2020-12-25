@@ -164,103 +164,103 @@ read_options_rom(){
 }
 
 aicp(){
-	./roms/aicp.sh
+	. roms/aicp.sh
 } 
 
 aim_rom(){
-	./roms/aim_rom.sh
+	. roms/aim_rom.sh
 }
 
 aosip(){
-	./roms/aosip.sh
+	. roms/aosip.sh
 }
 
 ancient_os(){
-	./roms/ancient_os.sh
+	. roms/ancient_os.sh
 }
 
 aosp_extended(){
-	./roms/aosp_extended.sh
+	. roms/aosp_extended.sh
 }
 
 arrow_os(){
-	./roms/arrow_os.sh
+	. roms/arrow_os.sh
 }
 
 beast_roms(){
-	./roms/beast_roms.sh
+	. roms/beast_roms.sh
 }
 
 bliss_rom(){
-	./roms/bliss_rom.sh
+	. roms/bliss_rom.sh
 }
 
 bootleggers_rom(){
-	./roms/bootleggers_rom.sh
+	. roms/bootleggers_rom.sh
 }
 
 colt_os(){
-	./roms/colt_os.sh
+	. roms/colt_os.sh
 }
 
 corvus_os(){
-	./roms/corvus_os.sh
+	. roms/corvus_os.sh
 }
 
 cosmic_os(){
-	./roms/cosmic_os.sh
+	. roms/cosmic_os.sh
 }
 
 crdroid(){
-	./roms/crdroid.sh
+	. roms/crdroid.sh
 }
 
 derpfest(){
-	./roms/derpfest.sh
+	. roms/derpfest.sh
 }
 
 dot_os(){
-	./roms/dot_os.sh
+	. roms/dot_os.sh
 }
 
 evolution_x(){
-	./roms/evolution_x.sh
+	. roms/evolution_x.sh
 }
 
 extended_ui(){
-	./roms/extended_ui.sh
+	. roms/extended_ui.sh
 }
 
 fluid_os(){
-	./roms/fluid_os.sh
+	. roms/fluid_os.sh
 }
 
 fusion_os(){
-	./roms/fusion_os.sh
+	. roms/fusion_os.sh
 }
 
 havoc_os(){
-	./roms/havoc_os.sh
+	. roms/havoc_os.sh
 }
 
 hornbill_os(){
-	./roms/hornbill_v2.sh
+	. roms/hornbill_v2.sh
 }
 
 ion_os(){
-	./roms/ion_os.sh
+	. roms/ion_os.sh
 }
 
 kang_os(){
-	./roms/kang_os.sh
+	. roms/kang_os.sh
 }
 
 liquid_rom(){
-	./roms/liquid_rom.sh
+	. roms/liquid_rom.sh
 }
 
 ligion_os(){
-	./roms/ligion_os.sh
+	. roms/ligion_os.sh
 }
 
 lineage() {
@@ -268,95 +268,95 @@ lineage() {
 }
 
 mokee_rom(){
-	./roms/mokee_rom.sh
+	. roms/mokee_rom.sh
 }
 
 msm_xtended(){
-	./roms/msm_xtended.sh
+	. roms/msm_xtended.sh
 }
 
 nitrogen_os(){
-	./roms/nitrogen_os.sh
+	. roms/nitrogen_os.sh
 }
 
 nusantara_project(){
-	./roms/nusantara_project.sh
+	. roms/nusantara_project.sh
 }
 
 octavi_os(){
-	./roms/octavi_os.sh
+	. roms/octavi_os.sh
 }
 
 omni_rom(){
-	./roms/omni_rom.sh
+	. roms/omni_rom.sh
 }
 
 paranoid_android(){
-	./roms/paranoid_android.sh
+	. roms/paranoid_android.sh
 }
 
 pixel_dust(){
-	./roms/pixel_dust.sh
+	. roms/pixel_dust.sh
 }
 
 pixelexperience(){
-	./roms/pixelexperience.sh
+	. roms/pixelexperience.sh
 }
 
 pixelextended_rom(){
-	./roms/pixelextended_rom.sh
+	. roms/pixelextended_rom.sh
 }
 
 pixys_os(){
-	/roms/pixys_os.sh
+	. roms/pixys_os.sh
 }
 
 posp(){
-	./roms/posp.sh
+	. roms/posp.sh
 }
 
 project_404(){
-	./roms/project_404.sh
+	. roms/project_404.sh
 }
 
 project_sakura(){
-	./roms/project_sakura.sh
+	. roms/project_sakura.sh
 }
 
 resurrection_remix(){
-	./roms/resurrection_remix.sh
+	. roms/resurrection_remix.sh
 }
 
 revenge_os(){
-	./roms/revenge_os.sh
+	. roms/revenge_os.sh
 }
 
 shapeshift_os(){
-	./roms/shapeshift_os.sh
+	. roms/shapeshift_os.sh
 }
 
 superior_os(){
-	./roms/superior_os.sh
+	. roms/superior_os.sh
 }
 
 syberia_os(){
-	./roms/syberia_os.sh
+	. roms/syberia_os.sh
 }
 
 validus_os(){
-	./roms/valid.sh
+	. roms/valid.sh
 }
 
 viper_os(){
-	./roms/viper_os.sh
+	. roms/viper_os.sh
 }
 
 weeb_projekt(){
-	./roms/weeb_projekt.sh
+	. roms/weeb_projekt.sh
 }
 
 zenx_os(){
-	./roms/zenx_os.sh
+	. roms/zenx_os.sh
 }
 
 show_menus() {
