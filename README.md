@@ -15,30 +15,33 @@ cd script
 
 <details>
 <summary>Currently Supported ROMs : </summary>
-1. AICP
-2. AIM ROM
-3. Ancient OS
-4. AOSIP
-5. AOSP Extended
-6. Arrow OS
-7. Beast ROM
-8. Bliss ROMs
-9. Bootleggers
-10. Colt OS
-11. Corvus OS
-12. Cosmic OS
-13. CrDroid
-14. Derpfest
-15. Dot OS
-16. Evolution X
-17. Extended UI
-18. Fluid OS
-19. Fusion OS
-20. Havoc OS
-21. Hornbill OS
-22. IOS OS
-23. Kang OS
-24. Legion OS
-25. Lineage OS
-26. Liquid ROM
+<ol>
+<li> AICP </li>
+<li> AIM </li>
+<li> ROM </li>
+<li> Ancient OS </li>
+<li> AOSIP </li>
+<li> AOSP Extended </li>
+<li> Arrow OS </li>
+<li> Beast ROM </li>
+<li> Bliss ROMs </li>
+<li> Bootleggers </li>
+<li> Colt OS </li>
+<li> Corvus OS </li>
+<li> Cosmic OS </li>
+<li> CrDroid </li>
+<li> Derpfest </li>
+<li> Dot OS </li>
+<li> Evolution X </li>
+<li> Extended UI </li>
+<li> Fluid OS </li>
+<li> Fusion OS </li>
+<li> Havoc OS </li>
+<li> Hornbill OS </li>
+<li> IOS OS </li>
+<li> Kang OS </li>
+<li> Legion OS </li>
+<li> Lineage OS </li>
+<li> Liquid ROM </li>
+</ol>
 </details>
