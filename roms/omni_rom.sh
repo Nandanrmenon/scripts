@@ -10,7 +10,7 @@ echo -e "OMNI ROM 11 | Now sit back and wait until the downloading is complete :
 mkdir ~/android/omni_rom
 cd ~/android/omni_rom
 echo "Initializing Repository...."
-#repo init -u https://github.com/Octavi-OS/platform_manifest.git -b 11
+#Repo is private
 #repo sync --force-sync
 echo -e "\n\n"
 echo "   ___   __   __ __    _ _"

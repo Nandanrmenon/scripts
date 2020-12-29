@@ -6,11 +6,11 @@ pause(){
 }
 
 clear
-echo -e "Nitrogen Project 11 | Now sit back and wait until the downloading is complete :)"
-mkdir ~/android/nitrogen
-cd ~/android/nitrogen
+echo -e "Nusantara Project 11 | Now sit back and wait until the downloading is complete :)"
+mkdir ~/android/nusantara
+cd ~/android/nusantara
 echo "Initializing Repository...."
-#echo "Can't find"
+#repo init -u https://github.com/NusantaraProject-ROM/android_manifest -b 11
 #repo sync --force-sync
 echo -e "\n\n"
 echo "##    ## ##     ##  ######     ###    ##    ## ########    ###    ########     ###    "
